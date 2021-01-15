@@ -17,6 +17,6 @@ Nmap Version {nmof[2]}
 
 {nmof[14]}
 - IP: {nmof[15]}
-- Latency: {nmof[19]})
+- Latency: {int(nmof[19].translate({ord('('): None, ord(')'): None, ord('s'): None}))})
 
 """)
